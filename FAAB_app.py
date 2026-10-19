@@ -187,11 +187,11 @@ with tab_adds:
 
             if selected_league:
                 if p_id in my_player_ids:
-                    status = "On Your Roster"
+                    status = "[MY ROSTER] 🌟"
                 elif p_id in all_rostered_player_ids:
-                    status = "Rostered in League"
+                    status = "[ROSTERED] 🔒"
                 else:
-                    status = "Available (Free Agent)"
+                    status = "[AVAILABLE] ✅"
             else:
                 status = "N/A"
 
@@ -279,11 +279,11 @@ with tab_drops:
 
             if selected_league:
                 if p_id in my_player_ids:
-                    status = "On Your Roster"
+                    status = "[MY ROSTER] 🌟"
                 elif p_id in all_rostered_player_ids:
-                    status = "Rostered in League"
+                    status = "[ROSTERED] 🔒"
                 else:
-                    status = "Available (Free Agent)"
+                    status = "[AVAILABLE] ✅"
             else:
                 status = "N/A"
 
